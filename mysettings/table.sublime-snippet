@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+\begin{table}[H]
+\begin{tabular}{c|c|c}
+ 
+2017.01 &  Prof. Bouillard & École Normale Supérieure\\
+ 
+\multicolumn{3}{l}{Realized an algorithm for deciding isomorphic graphs. }\\
+
+\end{tabular}
+\end{table}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>table</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

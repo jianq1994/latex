@@ -1,0 +1,154 @@
+<snippet>
+    <content><![CDATA[
+% !TEX program=xelatex
+% 使用 ctexart 文类，UTF-8 编码
+
+\documentclass[UTF8]{ctexart}
+
+%枚举的符号
+\usepackage{enumerate}
+
+%页面形式
+\usepackage{geometry}
+\geometry{left=2.5cm,right=2.5cm,top=2.5cm,bottom=2.5cm}
+
+% 设置页眉
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+%左页眉
+%\lhead{\footnotesize \parbox{11cm}{Applicant: Jian Qian} }
+%\chead{\footnotesize }
+%\rhead{\footnotesize \parbox{6cm}{Applying to: Computer Science Department}}
+%\makeatother
+
+%颜色
+\usepackage{xcolor}
+
+%插入代码
+\usepackage{listings}
+
+%中文支持
+\usepackage{CJK}
+
+%法语支持【需要pdflatex编译】
+\usepackage[utf8]{inputenc} 
+
+%数学的包
+\usepackage{amsmath}
+\usepackage{mathtools}
+\usepackage{amsthm}
+\usepackage{amssymb}
+\usepackage{amsfonts}
+
+%上方双波浪线
+%\usepackage[extra]{tipa}
+%\doubletilde{}
+
+%长表格
+\usepackage{longtable}
+
+%交换图
+\usepackage[all,cmtip]{xy}
+
+%自动机画图
+\usepackage{pgf,tikz}
+\usetikzlibrary{shapes,arrows,automata}
+\usepackage{graphicx}
+
+%算法
+\usepackage{algorithm}
+%\usepackage{algorithmic}
+\usepackage{algpseudocode}
+\usepackage{graphics}
+\usepackage{epsfig}
+
+
+%给文字加框
+\usepackage{framed}
+
+%给数学公式中的符号加粗
+\usepackage{bm}
+\usepackage{bbm}
+
+%把\Widehat命令设为自动调整大小的hat符号
+\usepackage{yhmath}
+\DeclareSymbolFont{largesymbol}{OMX}{yhex}{m}{n}
+\DeclareMathAccent{\Widehat}{\mathord}{largesymbol}{"62}
+
+\newtheorem{problem}{Problem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}[lemma]{Theorem}
+\newtheorem{corollary}[lemma]{Corollary}
+\newtheorem{proposition}[lemma]{Proposition}
+\newtheorem{definition}[lemma]{Definition}
+\newtheorem{property}{Property}
+\newtheorem{assumption}{Assumption}
+\newtheorem*{exercise}{Exercise}
+\newtheorem*{remark}{Remark}
+\newtheorem*{observation}{Observation}
+\newtheorem*{example}{Example}
+\newtheorem*{solution}{Solution}
+\newtheorem*{notation}{Notation}
+\newtheorem*{question}{Question}
+
+% 空行
+\newcommand\blankline{~\\\\}
+\newcommand\tto{\Rightarrow}
+
+%算法中用\require， \ensure写input，output
+\renewcommand{\algorithmicrequire}{\textbf{Input:}} % Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
+\newcommand{\algorithmiclastcon}{\textbf{Initialize:}}
+\newcommand{\Initialize}{\item[\algorithmiclastcon]}
+
+
+%设置不缩进
+\setlength{\parindent}{0pt}
+
+%设置图表的名字
+\renewcommand\tablename{Table}
+\renewcommand\figurename{Figure}
+
+%设置日期为英文
+\CTEXoptions[today=old]
+
+% 设置参考文献为英文
+\renewcommand\refname{Reference}
+
+% 设置答题时的题目模版
+\renewcommand{\question}[1]{\subsubsection*{Question:#1}}
+
+% 改变行距
+\linespread{1}
+
+
+\renewcommand{\c}[1]{\mathcal{#1}}
+\renewcommand{\b}[1]{\mathbb{#1}}
+\newcommand{\h}[1]{\hat{#1}}
+\newcommand{\s}[1]{\sqrt{#1}}
+\renewcommand{\o}[1]{\overline{#1}}
+\renewcommand{\u}[1]{\underline{#1}}
+\newcommand{\f}[2]{\frac{#1}{#2}}
+
+\begin{document}
+
+\title{}
+\author{Jian Qian}
+\maketitle
+
+
+
+
+
+
+
+
+
+
+\end{document}
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>latex</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

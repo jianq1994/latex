@@ -1,0 +1,45 @@
+<snippet>
+	<content><![CDATA[
+
+% \usepackage{pgf,tikz}
+% \usetikzlibrary{shapes,arrows,automata}
+
+% \begin{tikzpicture}[->,>=stealth',shorten >=1pt,auto,node distance=2.4cm ,semithick, every state/.style={fill=blue!10,thick}]
+
+% \node[state,initial,initial text={}] (q1) {\$q_1\$};
+% \node[state] (q2) [above right of=q1] {\$q_2\$};
+% \node[state] (q3) [below right of=q1] {\$q_3\$};
+% \node[state] (q4) [above right of=q3] {\$q_4\$};
+% \node[state,accepting] (q5) [right of=q4] {\$q_5\$};
+% \node[state,accepting] (q6) [above right of=q5] {\$q_6\$};
+% \node[state,accepting] (q7) [below right of=q5] {\$q_7\$};
+% \draw[every node/.style={font=\footnotesize}]
+%        (q1) edge node{a} (q2)
+%        (q1) edge node{b} (q3)
+%        (q2) edge[loop above] node{a} ()
+%        (q2) edge node{a} (q4)
+%        (q3) edge node{a} (q4)
+%        (q3) edge[loop below] node{b} ()
+%        (q4) edge node{b} (q5)
+%        (q5) edge node{a} (q6)
+%        (q5) edge node{b} (q7)
+%        (q6) edge[loop above] node{a} ()
+%        (q7) edge[loop below] node{b} ();
+       
+       
+%  \draw[->] (q2.280) -- (q3.80) node[near end, right]{b};
+%  \draw[<-] (q2.260) -- (q3.100) node[near start, left]{a};       
+%  \draw[->] (q6.280) -- (q7.80) node[midway, right]{b};
+%  \draw[<-] (q6.260) -- (q7.100) node[midway, left]{a};
+%  \draw [-,line width=8pt,draw=white]
+% (q1) to  (q4);
+
+%  \draw (q1) -- (q4) node[near end, above]{a};    
+% \end{tikzpicture}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>automaton</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

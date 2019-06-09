@@ -1,0 +1,67 @@
+{
+   "scope": "text.tex.latex",
+ 
+   "completions":
+   [
+      // The theorems 
+      { "trigger": "cor", "contents": "\\begin{corollary}\n$0\n\\end{corollary}"},
+      { "trigger": "def", "contents": "\\begin{definition}\n$0\n\\end{definition}"},
+      { "trigger": "exe", "contents": "\\begin{exercise}\n$0\n\\end{exercise}"},
+      { "trigger": "lem", "contents": "\\begin{lemma}\n$0\n\\end{lemma}"},
+      { "trigger": "pro", "contents": "\\begin{property}\n$0\n\\end{property}"},
+      { "trigger": "prop", "contents": "\\begin{proposition}\n$0\n\\end{proposition}"},
+      { "trigger": "rmk", "contents": "\\textbf{Remark:}$0"},
+      { "trigger": "thm", "contents": "\\begin{theorem}\n$0\n\\end{theorem}"},
+      { "trigger": "sol", "contents": "\\begin{solution}\n$0\n\\end{solution}"},
+      { "trigger": "eg", "contents": "\\begin{example}\n$0\n\\end{example}"},
+      { "trigger": "pf", "contents": "\\begin{proof}[proof]\n$0\n\\end{proof}"},
+      { "trigger": "que", "contents": "\\question{$1}\n$0"},
+      { "trigger": "ass", "contents": "\\begin{assumption}\n$0\n\\end{assumption}"},
+
+      // Symbols
+      { "trigger": "bn", "contents": "\\mathbb{N}"},
+      { "trigger": "bq", "contents": "\\mathbb{Q}"},
+      { "trigger": "br", "contents": "\\mathbb{R}"},
+      { "trigger": "bv", "contents": "\\mathbb{V}"},
+      { "trigger": "bz", "contents": "\\mathbb{Z}"},
+      { "trigger": "bc", "contents": "\\mathbb{C}"},
+      { "trigger": "bp", "contents": "\\mathbb{P}"},
+      { "trigger": "th", "contents": "\\theta"},
+
+      //Simplifications
+      { "trigger": "wt", "contents": "\\widetilde{$1}"},
+      { "trigger": "dy", "contents": "\\text{d}y"},
+      { "trigger": "dx", "contents": "\\text{d}x"},
+      { "trigger": "oc", "contents": "\\propto"},
+      { "trigger": "=>", "contents": "\\Rightarrow"},
+      { "trigger": "<=>", "contents": "\\Leftrightarrow"},
+      { "trigger": "lim", "contents": "\\lim\\limits_{$1}"},
+      { "trigger": "sum", "contents": "\\sum\\limits_{$1}^{$2}"},
+      { "trigger": "suml", "contents": "\\sum\\limits_{$1}"},
+      { "trigger": "sumn", "contents": "\\sum\\limits_{i=1}^{n}"},
+      { "trigger": "sumt", "contents": "\\sum\\limits_{t=1}^{T}"},
+      { "trigger": "prodn", "contents": "\\prod\\limits_{i=1}^{n}"},
+      { "trigger": "sumd", "contents": "\\sum\\limits_{j=0}^{d}"},
+      { "trigger": "argmax", "contents": "arg\\max\\limits_{$1}"},
+      { "trigger": "argmin", "contents": "arg\\min\\limits_{$1}"},
+      { "trigger": "sup", "contents": "\\sup\\limits_{$1}"},
+      { "trigger": "inf", "contents": "\\inf\\limits_{$1}"},
+      { "trigger": "max", "contents": "\\max\\limits_{$1}"},      
+      { "trigger": "min", "contents": "\\min\\limits_{$1}"},
+      { "trigger": "fra", "contents": "\\frac{$1}{$2}"},
+      { "trigger": "tt", "contents": "\\text{$1}"},
+      { "trigger": "nm", "contents": "||$1||"},
+      { "trigger": "prod", "contents": "\\prod\\limits_{$1}^{$2}"},
+      { "trigger": "prodl", "contents": "\\prod\\limits_{$1}"}, 
+      { "trigger": "sequal", "contents": "\\stackrel{*}{=}"},
+      { "trigger": "sr", "contents": "\\stackrel{$1}{$0}"},
+      { "trigger": "pa", "contents": "\\partial"},
+      { "trigger": "bar", "contents": "\\bar{$1}"},
+      { "trigger": "tto", "contents": "\\Rightarrow"}, 
+      { "trigger": "con", "contents": "\\Rightarrow\\!\\Leftarrow"},    
+      { "trigger": "ty", "contents": "\\tilde{y}"},
+      { "trigger": "ti", "contents": "\\tilde{$1}$0"},
+      { "trigger": "bl", "contents": "\\blankline"},
+      { "trigger": "set", "contents": "\\\\{$0\\\\}"}
+   ]
+}

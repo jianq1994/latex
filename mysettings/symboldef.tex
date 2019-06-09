@@ -1,0 +1,61 @@
+\DeclareRobustCommand{\eg}{e.g.,\@\xspace}
+\DeclareRobustCommand{\ie}{i.e.,\@\xspace}
+\DeclareRobustCommand{\wrt}{w.r.t.\@\xspace}
+\DeclareRobustCommand{\wp}{w.p.\@\xspace}
+\DeclareRobustCommand{\st}{s.t.\@\xspace}
+
+
+\newtheorem{problem}{Problem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{theorem}[lemma]{Theorem}
+\newtheorem{corollary}[lemma]{Corollary}
+\newtheorem{proposition}[lemma]{Proposition}
+\newtheorem{definition}[lemma]{Definition}
+\newtheorem{property}{Property}
+\newtheorem{assumption}{Assumption}
+\newtheorem*{exercise}{Exercise}
+\newtheorem*{remark}{Remark}
+\newtheorem*{observation}{Observation}
+\newtheorem*{example}{Example}
+\newtheorem*{solution}{Solution}
+\newtheorem*{notation}{Notation}
+\newtheorem*{question}{Question}
+
+% 空行
+\newcommand\blankline{~\\}
+\newcommand\tto{\Rightarrow}
+
+%算法中用\require， \ensure写input，output
+\renewcommand{\algorithmicrequire}{\textbf{Input:}} % Use Input in the format of Algorithm
+\renewcommand{\algorithmicensure}{\textbf{Output:}} % Use Output in the format of Algorithm
+\newcommand{\algorithmiclastcon}{\textbf{Initialize:}}
+\newcommand{\Initialize}{\item[\algorithmiclastcon]}
+
+
+%设置不缩进
+\setlength{\parindent}{0pt}
+
+%设置图表的名字
+\renewcommand\tablename{Table}
+\renewcommand\figurename{Figure}
+
+%设置日期为英文
+\CTEXoptions[today=old]
+
+% 设置参考文献为英文
+\renewcommand\refname{Reference}
+
+% 设置答题时的题目模版
+\renewcommand{\question}[1]{\subsubsection*{Question:#1}}
+
+% 改变行距
+\linespread{1}
+
+
+\renewcommand{\c}[1]{\mathcal{#1}}
+\renewcommand{\b}[1]{\mathbb{#1}}
+\newcommand{\h}[1]{\hat{#1}}
+\newcommand{\s}[1]{\sqrt{#1}}
+\renewcommand{\o}[1]{\overline{#1}}
+\renewcommand{\u}[1]{\underline{#1}}
+\renewcommand{\f}[1]{\frac{#1}{#2}}

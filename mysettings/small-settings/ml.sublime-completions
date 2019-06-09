@@ -1,0 +1,51 @@
+{
+   "scope": "text.tex.latex",
+ 
+   "completions":
+   [
+      { "trigger": "half", "contents": "\\frac{1}{2}"},
+      { "trigger": "incl", "contents": "\\includegraphics[width=$1\\textwidth]"},
+
+      { "trigger": "wban", "contents": "\\bar{W}_n"},
+      { "trigger": "vban", "contents": "\\bar{V}_n"},
+      { "trigger": "vp", "contents": "\\varphi"},
+      { "trigger": "1on", "contents": "\\frac{1}{n}"},
+      { "trigger": "rp", "contents": "R_P[$1]"},
+      { "trigger": "rpn", "contents": "R_{\\Widehat{P}_n}[$1]"},
+      { "trigger": "fxy", "contents": "\\mathcal{F}(\\mathcal{X},\\mathcal{Y})"},
+      { "trigger": "gng", "contents": "\\hat{g}_{n,\\mathcal{G}}"},
+      { "trigger": "gpg", "contents": "g^*_{P,\\mathcal{G}}"},
+      { "trigger": "as", "contents": "\\stackrel{\\text{a.s.}}{\\to}"},
+      { "trigger": "iid", "contents": "\\stackrel{\\text{i.i.d.}}{\\sim}"},
+      { "trigger": "wh", "contents": "\\Widehat{$1}"},
+      { "trigger": "hf", "contents": "\\hat{f}" },
+      { "trigger": "hp", "contents": "\\hat{p}"},
+      { "trigger": "hg", "contents": "\\hat{g}"},
+      { "trigger": "ca", "contents": "\\mathcal{A}"},
+      { "trigger": "cb", "contents": "\\mathcal{B}"},
+      { "trigger": "cc", "contents": "\\mathcal{C}"},
+      { "trigger": "cd", "contents": "\\mathcal{D}"},
+      { "trigger": "ce", "contents": "\\mathcal{E}"},
+      { "trigger": "cf", "contents": "\\mathcal{F}"},
+      { "trigger": "cg", "contents": "\\mathcal{G}"},
+      { "trigger": "ch", "contents": "\\mathcal{H}"},
+      { "trigger": "ci", "contents": "\\mathcal{I}"},      
+      { "trigger": "cl", "contents": "\\mathcal{L}"},
+      { "trigger": "cm", "contents": "\\mathcal{M}"},
+      { "trigger": "cn", "contents": "\\mathcal{N}"},
+      { "trigger": "cp", "contents": "\\mathcal{P}"},
+      { "trigger": "cr", "contents": "\\mathcal{R}"},
+      { "trigger": "cs", "contents": "\\mathcal{S}"},
+      { "trigger": "ct", "contents": "\\mathcal{T}"},
+      { "trigger": "cu", "contents": "\\mathcal{U}"},
+      { "trigger": "cv", "contents": "\\mathcal{V}"},
+      { "trigger": "cw", "contents": "\\mathcal{W}"},
+      { "trigger": "cx", "contents": "\\mathcal{X}"},
+      { "trigger": "cy", "contents": "\\mathcal{Y}"},
+
+      { "trigger": "gamma", "contents": "\\frac{1}{\\Gamma($1)}{$2}^{$3-1}e^{-$4}"},
+      { "trigger": "gauss", "contents": "e^{-\\frac{1}{2{$1}^2}($2)^2}"},
+      { "trigger": "bbe", "contents": "\\mathbb{E}[$0]"},
+      { "trigger": "b1", "contents": "\\mathbbm{1}($0)"}
+   ]
+}

@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+% references
+% \renewcommand\refname{Reference}
+% \begin{thebibliography}{00}
+% \setlength{\itemsep}{0pt}
+%     \bibitem{} Anon. Technical Report on Space Debris, 1999, No. E.99.I.17: 21.
+% \end{thebibliography}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>reference</tabTrigger> 
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

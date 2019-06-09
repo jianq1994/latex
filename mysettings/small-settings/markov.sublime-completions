@@ -1,0 +1,12 @@
+{
+   "scope": "text.tex.latex",
+ 
+   "completions":
+   [
+      { "trigger": "bx", "contents": "\\mathbb{X}"},
+      { "trigger": "cm", "contents": "\\mathcal{M}"},
+      { "trigger": "bbf", "contents": "\\mathbb{F}"},
+      { "trigger": "a4", "contents": "à"},
+      { "trigger": "by", "contents": "\\mathbb{Y}"}
+   ]
+}

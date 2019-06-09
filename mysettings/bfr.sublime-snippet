@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+\begin{frame}
+    \frametitle{$1}
+    \onslide<1-> $0
+\end{frame}
+
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>bfr</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <!-- <scope>source.python</scope> -->
+</snippet>

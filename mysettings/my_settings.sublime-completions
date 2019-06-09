@@ -1,0 +1,17 @@
+{
+   "scope": "text.tex.latex",
+ 
+   "completions":
+   [
+        { "trigger": "ba", "contents": "\\begin{align*}\n$0\n\\end{align*}"},
+        { "trigger": "bg", "contents": "\\begin{gather*}\n$0\n\\end{gather*}"},
+        { "trigger": "be", "contents": "\\begin{enumerate}\n\t\\item $0\n\\end{enumerate}"},
+        { "trigger": "bi", "contents": "\\begin{itemize}\n\t\\setlength{\\itemsep}{0pt}\n\t\\setlength{\\parsep}{0pt}\n\t\\setlength{\\parskip}{0pt}\n\t\\item $0\n\\end{itemize}"},
+        { "trigger": "bfd", "contents": "\\begin{framed}\n$0\n\\end{framed}"},
+        { "trigger": "bs", "contents": "\\begin{$1}\n$0\n\\end{$1}"},
+        { "trigger": "sss", "contents": "\\subsubsection*{$1}\n$0"},
+        { "trigger": "ss", "contents": "\\subsection{$1}\n$0"},
+        { "trigger": "box", "contents": "\\begin{framed}\n$0\n\\end{framed"},
+        { "trigger": "sec", "contents": "\\section{$1}\n$0"}
+   ]
+}
